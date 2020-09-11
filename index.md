@@ -73,7 +73,7 @@
 <div class="row">
     <div class="large-7 medium-6 small-6 columns">
         <h2>Content Assist</h2>
-        <p>Bndtools leverages bnd's extensive knowledge and understanding of the contents of its bundles to produce useful content assists. Bndtools performs complex analysis of a variety of compiler errors that can potentially caused by missing types, looks for bundles that contain those types, and offers them as suggestions to add to your build or test path. It is even able to offer possible solutions to problems that on the surface are not obviously caused by missing types (such as "missing methods" which are actually caused by superclasses not being present on the classpath) that can be hard to debug.</p>
+        <p>Bndtools leverages bnd's extensive knowledge and understanding of the contents of its bundles to produce useful content assists. Bndtools performs complex analysis of a variety of compiler errors that can potentially be caused by missing types, looks for bundles that contain those types, and offers them as suggestions to add to your build or test path. It is even able to offer possible solutions to problems that are not obviously caused by missing types, which can be hard to debug (such as "missing methods" which are actually caused by missing superclasses).</p>
     </div>
     <div class="large-5 medium-6 small-6 columns">
         <img src="/assets/img/quickfix.png" align="right"/>
